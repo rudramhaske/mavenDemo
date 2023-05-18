@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SubmitTest(failed)">
+    <parameter name="Email" value="rudra@onetwo"/>
+    <parameter name="Pass" value="rudramhaske"/>
+    <parameter name="gender" value=""/>
+    <parameter name="DOB" value=""/>
+    <parameter name="Name" value="rudra"/>
+    <classes>
+      <class name="com.mavenDemo.TestScript.TC_SumitForm">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="submitForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mavenDemo.TestScript.TC_SumitForm -->
+    </classes>
+  </test> <!-- SubmitTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
